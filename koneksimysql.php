@@ -3,14 +3,14 @@
 define('host', 'localhost');
 
 // Hosting
-// define('user', 'androidanggoro');
-// define('password', 'Anggoro123');
-// define('database', 'androidanggoro');
+define('user', 'androidanggoro');
+define('password', 'Anggoro123');
+define('database', 'androidanggoro');
 
 // Local
-define('user', 'root');
-define('password', '');
-define('database', 'android');
+// define('user', 'root');
+// define('password', '');
+// define('database', 'android');
 
 $conn = mysqli_connect(host, user, password, database);
 if (!$conn) {
